@@ -1,0 +1,32 @@
+html {
+    color: #A2D2FF;
+    background-color: #333533;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+img {
+    height: 400px;
+    border-radius: 8px;
+}
+
+h1 {
+    color:#8338EC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+h2 {
+
+    color: #F15BB5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    }
+
+ul {
+    color: #060;
+    text-decoration: double;
+}
+
