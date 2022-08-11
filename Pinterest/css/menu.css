@@ -1,0 +1,113 @@
+body {
+
+    margin: 0px;
+    padding:0px;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    height: 14vh;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+
+.logo h2 {
+    margin: 5px;
+    color: #c00;
+}
+
+.logo img {
+    background-color: #c00;
+    color: #c00;
+}
+
+.menu  {
+
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.derecha a {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.derecha a:hover{
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+.centro {
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    width: 100%;
+    height: 4vh;
+    border-radius: 30px;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+    text-justify: distribute;
+    
+}
+
+span{
+    position: absolute;
+    top: 40%;
+    left: 25%;    
+}
+
+.iniciar {
+    font-size: 1.2rem;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    background-color: #efefef;
+    border-radius: 20px;
+}
+
+.registrar {
+    font-size: 1.2rem;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    background-color: #c00;
+    border-radius: 20px;
+
+}
+.iniciar:hover{
+    background-color: #c7c1c1d3;
+
+}
+.registrar:hover {
+    background-color: rgb(173, 6, 6);
+}
