@@ -73,9 +73,14 @@ nav {
     border-radius: 30px;
     border-width: 1px;
     padding: 10px;
-    text-align: center;
-    text-justify: distribute;
+    text-align: left;
+
     
+}
+
+input#checking {
+    padding-left:55px
+
 }
 
 span{
