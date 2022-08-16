@@ -1,0 +1,181 @@
+body {
+    display: grid;
+    grid-template-rows: 60px auto;
+    grid-template-columns: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+    /* Acá va el header*/
+  
+   /* caja principal*/
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    
+
+   
+  }
+
+  
+  /* caja donde estan las imagenes*/
+  .tile-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 500vh;
+ /*   background-color: yellow;
+ */ 
+
+}
+  
+  /* Son los borden donde estan cada una de las imagenes cuando no está seleccionada*/
+  .tile {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+    /*
+    padding: 10px;
+    */
+    margin: 10px;
+    border-radius: 8px;
+  
+    /*
+    background-color: green;
+  */
+  }
+  
+  /* color bordes de cada imagen cuando te pones sobre ella*/
+  .tile:hover {
+
+
+  
+  /*
+    background-color: white;
+  */
+  }
+  
+   /* esquinas de cada imagen*/
+  .tile img {
+    width: 240px;
+    border-radius: 8px;
+    
+  }
+
+  .tile img:hover{
+    background-color: rgb(32, 29, 29);
+    opacity: 0.7;
+  }
+  
+   /* iconos de la imagen adelante (compartir, opciones y guardar*/
+  .overlay {
+    width: 240px;
+    display: flex;
+    z-index: 1;
+    /*
+    background-color: yellow;
+  */
+  }
+  
+  .tile:hover .overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*
+    background-color: aqua;
+ */
+  }
+  
+   /* color bordes de iconos compartir y opciones*/
+  .tile .overlay img {
+    width: 20px;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+
+  .tile .overlay2 img {
+    width: 20px;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+
+   /* boton guardar, color de letra y bordes*/
+.btn_Guardar{
+
+    background-color: #bd081d;
+    border-radius: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: 6px;
+    margin-right: 6px;
+  
+
+
+}
+.btn_Guardar:hover{
+  cursor: pointer;
+  background-color: #da1229;
+
+
+}
+
+  .btn_Guardar p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+  }
+
+
+  
+  
+  .bottom-float {
+    font-weight: bold;
+    height: 48px;
+    width: 48px;
+    padding: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+  }
+  
+  .float-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #efefef;
+    padding: 0px; 
+    border-radius: 4px;
+  }
+  
+  @media screen and (max-width:595px) {
+    .icons {
+      flex-grow: 1;
+      justify-content: space-around;
+    }
+  
+    .search-icon {
+      display: block;
+      margin: 0px 20px;
+    }
+  
+    input {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width:1145px) {
+    .tile-container {
+      height: 300vh;
+      width: 1080px;
+    }
+  }

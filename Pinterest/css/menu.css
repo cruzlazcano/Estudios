@@ -6,6 +6,7 @@ body {
 
 nav {
     display: flex;
+    
 }
 
 .navbar {
@@ -16,6 +17,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .logo {
@@ -91,20 +93,20 @@ span{
 
 .iniciar {
     font-size: 1.2rem;
-    padding: 15px;
+    padding: 12px;
     text-decoration: none;
     color: black;
-    margin-left: 5px;
+    margin-left: 4px;
     background-color: #efefef;
     border-radius: 20px;
 }
 
 .registrar {
-    font-size: 1.2rem;
-    padding: 15px;
+    font-size: 1.1rem;
+    padding: 12px;
     text-decoration: none;
     color: white;
-    margin-left: 5px;
+    margin-left: 4px;
     background-color: #c00;
     border-radius: 20px;
 

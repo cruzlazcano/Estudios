@@ -1,0 +1,11 @@
+.zoom {
+    display: flex;
+
+}
+.imagen {
+    width: 40%;
+    height: 30vh;
+    border: 2px solid black;
+    background-size: 100% 100%;
+
+}
