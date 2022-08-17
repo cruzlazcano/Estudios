@@ -28,10 +28,14 @@ nav {
     width:10%;
 }
 
-.logo h2 {
+.logo a {
     margin: 5px;
     color: #c00;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
+
 
 .logo img {
     background-color: #c00;

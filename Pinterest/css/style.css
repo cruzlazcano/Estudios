@@ -5,16 +5,11 @@ body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
   }
   
-    /* Acá va el header*/
-  
    /* caja principal*/
   .container {
     display: flex;
     justify-content: center;
     margin-top: 12px;
-    
-
-   
   }
 
   
@@ -25,8 +20,6 @@ body {
     flex-wrap: wrap;
     width: 850px;
     height: 500vh;
- /*   background-color: yellow;
- */ 
 
 }
   
@@ -37,30 +30,13 @@ body {
     flex-direction: column;
     position: relative;
     align-items: flex-end;
-    /*
-    padding: 10px;
-    */
     margin: 10px;
     border-radius: 8px;
-  
-    /*
-    background-color: green;
-  */
-  }
-  
-  /* color bordes de cada imagen cuando te pones sobre ella*/
-  .tile:hover {
-
-
-  
-  /*
-    background-color: white;
-  */
   }
   
    /* esquinas de cada imagen*/
   .tile img {
-    width: 240px;
+    width: 100%;
     border-radius: 8px;
     
   }
@@ -72,22 +48,31 @@ body {
   
    /* iconos de la imagen adelante (compartir, opciones y guardar*/
   .overlay {
-    width: 240px;
+    position: absolute;
+    width: 100%;
     display: flex;
+    justify-content: end;
     z-index: 1;
-    /*
-    background-color: yellow;
-  */
+    bottom: 0px;
+    margin-bottom: 10px;
+  
   }
   
-  .tile:hover .overlay {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*
-    background-color: aqua;
- */
+  .overlay a{
+
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius:20px;
+    background-color: rgba(128, 128, 128, 0.719);
+    margin: 2px;
   }
+
+  .overlay a:hover{
+
+    background-color: rgba(128, 128, 128, 0.356) ;
+  }
+
   
    /* color bordes de iconos compartir y opciones*/
   .tile .overlay img {
@@ -99,14 +84,6 @@ body {
     margin-right: 100px;
   }
 
-  .tile .overlay2 img {
-    width: 20px;
-    background-color: gainsboro;
-    padding: 10px;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 100px;
-  }
 
    /* boton guardar, color de letra y bordes*/
 .btn_Guardar{
@@ -138,7 +115,7 @@ body {
 
   
   
-  .bottom-float {
+  .boton_ab {
     font-weight: bold;
     height: 48px;
     width: 48px;
@@ -148,7 +125,7 @@ body {
     right: 20px;
   }
   
-  .float-icon {
+  .icon_preg {
     width: 48px;
     height: 48px;
     font-size: 20px;
