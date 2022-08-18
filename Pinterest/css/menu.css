@@ -86,6 +86,8 @@ nav {
     border-width: 1px;
     padding: 10px;
     text-align: left;
+    border-color: #efefef;
+    border-style: inset;
 
     
 }
