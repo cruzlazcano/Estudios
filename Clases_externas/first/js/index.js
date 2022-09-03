@@ -36,3 +36,4 @@ $eventoremover.addEventListener("dblclick",(e)=>{
     alert(`removiendo el evento de tipo ${e.type}`);
     console.log(e);
 })
+
